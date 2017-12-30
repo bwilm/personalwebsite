@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="blog">
+
+
+<head>
+  <title>Brandon Wilmott</title>
+  <metaname="fragment" content="!"></metaname>
+    <meta property="og:title" content="{{ seo.title }}">
+    <meta property="twitter:title" content="{{seo.title}}">
+    <meta property="og:image" content="{{ seo.image }}">
+    <meta property="twitter:image" content="{{seo.image}}">
+    <meta property="og:url" content="{{ seo.url }}">
+    <meta property="twitter:url" content="{{ seo.url }}">
+    <meta property="description" content="{{ seo.description }}">
+    <meta property="og:description" content="{{ seo.description }}">
+    <meta property="twitter:description" content="{{ seo.description }}">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <base href='/home'>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Athiti|Covered+By+Your+Grace|Libre+Barcode+128+Text|Libre+Barcode+39+Text|Quantico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-resource.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
+    <script src="services.js"></script>
+    <script src="factories.js"></script>
+    <script src="controllers.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+  <div ng-view></div>
+</body>
+
+</html>

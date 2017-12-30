@@ -1,0 +1,221 @@
+.slider .indicators .indicator-item.active {
+    background-color: #bf360c;
+}
+
+.Julius{
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.gradient{
+
+margin-top: 0em;
+margin-bottom: 0em;
+background-size: cover;
+position: absolute;
+      top: 0; /* Header Height */
+      bottom: 0; /* Footer Height */
+      width: 100%;
+top: 0;
+left: 0;
+
+background: #1D4350;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.geoback{
+
+  background-size: contain;
+  background-image: url("images/geoback.png");
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.float-left {
+    float: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.card {
+    padding: .5em;
+    border: none;
+}
+.slide {
+    width: 100%;
+    height: auto;
+}
+
+.indicator-item.active{
+
+  background-color: red;
+}
+
+
+.grace{
+  font-family: 'Covered By Your Grace', cursive;
+}
+
+.quantico{
+  font-family: 'Quantico', sans-serif;
+
+}
+
+.libre{
+  font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+.libre2{
+  font-family: 'Libre Barcode 128 Text', cursive;
+}
+.Athiti{
+  font-family: 'Athiti', sans-serif;
+}
+
+#bg {
+
+  background-image: url(images/langback.png);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #f0f0f0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1{
+  width: 600px;
+  height: 100px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -275px;
+  font-size: 3.2em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 100px;
+  color: #aaa;
+}
+
+h2{
+  width: 600px;
+  height: 100px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: 0 0 0 -225px;
+  font-size: 1.6em;
+  font-weight: 400;
+  text-align: center;
+  line-height: 100%;
+  color: #bbb;
+}
+
+/* The ribbons */
+
+.corner-ribbon{
+  width: 200px;
+  background: #e43;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* Custom styles */
+
+.corner-ribbon.sticky{
+  position: fixed;
+}
+
+.corner-ribbon.shadow{
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+
+/* Different positions */
+
+.corner-ribbon.top-left{
+  top: 25px;
+  left: -50px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.corner-ribbon.top-right{
+  top: 25px;
+  right: -50px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon.bottom-left{
+  top: auto;
+  bottom: 25px;
+  left: -50px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon.bottom-right{
+  top: auto;
+  right: -50px;
+  bottom: 25px;
+  left: auto;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* Colors */
+
+.corner-ribbon.white{background: #f0f0f0; color: #555;}
+.corner-ribbon.black{background: #333;}
+.corner-ribbon.grey{background: #999;}
+.corner-ribbon.blue{background: #39d;}
+.corner-ribbon.green{background: #2c7;}
+.corner-ribbon.turquoise{background: #1b9;}
+.corner-ribbon.purple{background: #95b;}
+.corner-ribbon.red{background: #e43;}
+.corner-ribbon.orange{background: #e82;}
+.corner-ribbon.yellow{background: #ec0;}
+
+
+.langback
+{
+  background-image: url("images/langback.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

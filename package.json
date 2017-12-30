@@ -1,0 +1,50 @@
+{
+  "name": "lab19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "source variables && npm run dev",
+    "build:ts": "tsc -p .",
+    "server":"node server/index.js",
+    "dev": "nodemon -e ts --dir server/ --exec \"npm run start\"",
+    "start":"npm run build:ts && npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwilm/lab19.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwilm/lab19/issues"
+  },
+  "homepage": "https://github.com/bwilm/lab19#readme",
+  "dependencies": {
+    "@types/bcrypt": "^1.0.0",
+    "@types/body-parser": "^1.16.7",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/express-mysql-session": "^1.2.2",
+    "@types/express-session": "^1.15.6",
+    "@types/mysql": "^2.15.0",
+    "@types/passport": "^0.4.1",
+    "@types/passport-local": "^1.0.32",
+    "body-parser": "^1.18.2",
+    "config": "^1.28.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-mysql-session": "^1.2.2",
+    "express-session": "^1.15.6",
+    "mysql": "^2.15.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "prerender-node": "^2.7.4",
+    "save": "^2.3.1",
+    "tsconfig": "^7.0.0",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "keywords": []
+}

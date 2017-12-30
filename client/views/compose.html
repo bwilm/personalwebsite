@@ -1,0 +1,49 @@
+<!-- /compose
+Contains an input field for title
+Contains a select box for selecting the category from a list of all the categories
+Contains a select box for selecting the user from a list of all the users
+Contains a textarea for typing the content of the blog post
+Contains a button for saving the blog post
+Navigates back to the list of posts when successfully saved -->
+<div class="container-fluid"></div>
+      <form ng-submit="save()">
+        <input type="text" ng-model="post.title" placeholder="title">
+        <select ng-model="post.categoryid">
+            <option value="">Select Category</option>
+            <option ng-repeat="c in category" value="{{c.id}}">{{c.name}}</option>
+        </select>
+        <select class="form-group wow fadeInUp" data-wow-delay="0.6s" ng-model="post.userid">
+            <option value="">Select User</option>
+            <option ng-repeat="u in users" value="{{ u.id }}">{{u.firstname}} {{u.lastname}}</option>
+        </select>
+        <textarea class="form-control textarea col" ng-model="post.content" rows="20" w-50></textarea>
+        <input type="submit" value="Save">
+      </form>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
